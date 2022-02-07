@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Target</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div>
+                <img src="./img/logo.png" alt="" height="50px" width="auto">
+            </div>
+            <button id="btnhidden" class="btn" onclick="image()">Menu</button>
+            <div id="nava">
+                <a href="#home" class="display-none">Home</a>
+                <a href="#project" class="display-none">Project</a>
+                <a href="#contact" class="display-none">Contact</a>
+                <a href="#ideas" class="display-none">iDeas</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div id="counter">
+        <div id="childcounter">
+            <h1>Counter by Me.</h1>
+            <span class="bigtext" id="maincounter">
+                0
+            </span>
+        </div>
+        <div>
+            <button class="btn" onclick="plus()">+++</button>
+            <button class="btn" onclick="reset()">Reset</button>
+            <button class="btn" onclick="minus()">---</button>
+        </div>
+    </div>
+</body>
+
+</html>

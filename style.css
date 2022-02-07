@@ -1,0 +1,213 @@
+/* start of .navbar */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    
+    /* border: 1px solid green; */
+}
+
+.navbar a {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#nava {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        overflow: auto;
+        height: auto;
+    }
+    #nava {
+        width: 360px;
+        display: none;
+        /* border: 2px solid green; */
+        transition-duration: 2s;
+    }
+    #btnhidden {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #nava {
+        display: flex;
+    }
+    #btnhidden {
+        display: none;
+    }
+}
+
+
+/* end of navbar */
+
+/* start of boxing */
+.containerbox{
+    border:2px solid red;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.childconts{
+    border: 2px solid firebrick;
+    height: 40vh;
+    width: 250vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* end of boxing */
+
+
+/* start of project 1 */
+
+#colorchange {
+    margin-top: 82px;
+    height: 600px;
+}
+
+.bgchange {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: tomato;
+}
+
+
+/* end of project 1 */
+
+#calc {
+    overflow: auto;
+    height: 700px;
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input[type="button"] {
+    /* border-radius: 10px; */
+    background-color: white;
+    color: black;
+    height: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    width: 80px;
+}
+
+#textval {
+    /* border-radius: 10px; */
+    text-align: right;
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 240px;
+    height: 80px;
+    font-size: 50px
+}
+
+
+/* start of project 2 */
+
+
+/* start of project 3 */
+
+#childcounter {
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: auto;
+    flex-direction: column;
+    border-top: 2px solid red;
+}
+
+.bigtext {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+
+/* end of project 3 */
+
+
+/* start of project 4 */
+
+#todolist {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* end of project 4 */
+
+
+/* start of project 5 */
+
+#anchor{
+    border: 2px solid red;
+}
+
+
+/* end of project 5 */
